@@ -1,0 +1,87 @@
+/* ===============================
+   UPDATE PAGE — E-COMMERCE STYLE
+   =============================== */
+
+:root {
+    --primary: #bc8246;
+    --primary-dark: #a36f3c;
+    --text-gray: #666;
+}
+
+/* Center card container */
+.update-container {
+    max-width: 550px;
+    margin: 100px auto;
+    background: #fff;
+    padding: 40px 35px;
+    border-radius: 18px;
+    box-shadow: 0 10px 28px rgba(0,0,0,0.1);
+    animation: fadeUp 0.4s ease;
+}
+
+/* Title styling (optional if you want to add later) */
+.update-title {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+    color: #222;
+    margin-bottom: 25px;
+    letter-spacing: 1px;
+}
+
+/* Form styling */
+.update-container p {
+    margin-bottom: 18px;
+}
+
+.update-container label {
+    display: block;
+    color: var(--text-gray);
+    font-weight: 600;
+    margin-bottom: 6px;
+}
+
+.update-container input,
+.update-container select,
+.update-container textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 12px 14px;
+    font-size: 1rem;
+    transition: 0.3s ease;
+}
+
+.update-container input:focus,
+.update-container select:focus,
+.update-container textarea:focus {
+    border-color: var(--primary);
+    box-shadow: 0 0 8px rgba(188,130,70,0.3);
+    outline: none;
+}
+
+/* Submit button */
+.update-submit {
+    width: 100%;
+    background: var(--primary);
+    color: #fff;
+    padding: 13px 20px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.05rem;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s ease;
+}
+
+.update-submit:hover {
+    background: var(--primary-dark);
+    box-shadow: 0 0 12px rgba(188,130,70,0.4);
+}
+
+/* Fade-up animation */
+@keyframes fadeUp {
+    0% { opacity: 0; transform: translateY(20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}

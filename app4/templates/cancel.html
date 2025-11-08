@@ -1,0 +1,20 @@
+{% extends "base.html" %}
+{% load static %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="{% static 'css/cancel.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="payment-cancelled-container">
+    <div class="cancel-card">
+        <h1>Payment Cancelled</h1>
+        <p>No worries! You can try again or return to your cart.</p>
+
+        <div class="cancel-buttons">
+            <a href="{% url 'view_cart' %}" class="btn-cart">Back to Cart</a>
+            <a href="{% url 'home' %}" class="btn-home">Return to Home</a>
+        </div>
+    </div>
+</div>
+{% endblock %}

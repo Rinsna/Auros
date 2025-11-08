@@ -1,0 +1,71 @@
+/* Page Background */
+.success-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background: #f9f9f9;
+    min-height: 75vh;
+}
+
+/* Card Styling */
+.success-card {
+    background: #ffffff;
+    padding: 40px 50px;
+    border-radius: 16px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* Heading */
+.success-card h1 {
+    color: #bc8246;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+/* Sub Text */
+.success-card p {
+    color: #666;
+    font-size: 1.1rem;
+    margin-bottom: 30px;
+}
+
+/* Buttons Container */
+.success-actions {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+/* Primary Button */
+.btn-primary {
+    background: #bc8246;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-primary:hover {
+    background: #a36e3f;
+}
+
+/* Secondary Button */
+.btn-secondary {
+    background: #666;
+    color: white;
+    padding: 10px 22px;
+    border-radius: 8px;
+    text-decoration: none;
+    transition: 0.3s ease;
+    font-weight: 600;
+}
+
+.btn-secondary:hover {
+    background: #4d4d4d;
+}

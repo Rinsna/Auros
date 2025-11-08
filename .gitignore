@@ -1,0 +1,14 @@
+# environment and sensitive files
+
+.env 
+
+#python cacche
+
+__pycache__/
+*.pyc  
+
+#static files
+
+#virtual environment
+
+env4/
